@@ -15,4 +15,5 @@ $pessoa2->nome = "João";
 $pessoa2->idade = 6;
 
 echo $pessoa1->nome;
+echo "<br />";
 echo $pessoa2->nome;
