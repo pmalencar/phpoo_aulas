@@ -3,17 +3,18 @@
 class Pessoa 
 {
     public $nome;
-    public $idade;         
+    public $idade;
+    
+    public function correr($km)
+    {
+        echo $this->nome." está correndo";
+        
+        for($i = 0; $km > $i; $i++)
+        {
+            echo ".";
+        }
+        
+        echo $this->nome." correu ".$km."km";
+    }         
 }
 
-$pessoa1 = new Pessoa();
-$pessoa1->nome = "Paulo";
-$pessoa1->idade = 35;
-
-$pessoa2 = new Pessoa();
-$pessoa2->nome = "João";
-$pessoa2->idade = 6;
-
-echo $pessoa1->nome;
-echo "<br />";
-echo $pessoa2->nome;
