@@ -2,13 +2,9 @@
 
 require_once "pessoa.php";
 
-$pessoa1 = new Pessoa();
-$pessoa1->nome = "Paulo";
-$pessoa1->idade = 35;
+$pessoa1 = new Pessoa("Franciso",45);
 
-$pessoa2 = new Pessoa();
-$pessoa2->nome = "João";
-$pessoa2->idade = 6;
+$pessoa2 = new Pessoa("Maria",36);
 
 echo $pessoa1->nome;
 echo "<br />";
