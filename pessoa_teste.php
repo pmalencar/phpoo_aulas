@@ -1,5 +1,6 @@
 <?php
 
+require_once "pessoa.php";
 
 $pessoa1 = new Pessoa();
 $pessoa1->nome = "Paulo";
